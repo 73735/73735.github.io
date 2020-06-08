@@ -1,47 +1,75 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body, html {
-  height: 100%;
-  margin: 0;
-}
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/26a342633e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script type=text/javascript>
+        var totalCount = 3;
+        function ChangeIt() {
+          var num = Math.ceil(Math.random() * totalCount);
+          document.body.background = './assets/imgs/'+num+'.gif';
+          document.body.style.backgroundRepeat = 'no-repeat'
+          document.body.style.backgroundSize = 'cover';
+          document.body.style.backgroundPosition = 'center';
+          document.body.style.height = "100%";
+        };
+      </script>
+    <link rel="stylesheet" type="text/css" href="./assets/css/index.css" />
+  </head>
 
-.bg {
-  /* The image used */
-  background-image: url("/imgs/wall_hellowww.gif");
-
-  /* Full height */
-  height: 120%; 
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-button {
-  background-color: rgba(73, 75, 73, 0.479); /* Green */
-  border: none;
-  color: white;
-  padding: 10px 30px;
-  display: inline-block;
-
-  position: fixed;
-  right: 0;
-  bottom: 0;
-}
-
-</style>
-</head>
-<body>
-
-<div class="bg">
-
-  <button type="button" onclick="window.location.href='default.html'">>></button>
-
-</div>
-
-</body>
+  <body>
+    <div class="bg">
+      <script type="text/javascript"> 
+        ChangeIt();
+      </script>
+    </div>
+    <div>
+      <button
+        type="button"
+        class="buttonCenter"
+        onclick="window.location.href='default.html'"
+      >
+        <i class="material-icons icon-green md-120">
+          bug_report
+        </i>
+      </button>
+      <button
+        type="button"
+        class="buttonFooter"
+        onclick="window.location.href='https://github.com/73735/'"
+      >
+        <i class="fab fa-github"></i>
+      </button>
+      <button
+        type="button"
+        class="buttonFooterCenter"
+        onclick="window.location.href='https://twitter.com/_73735/'"
+      >
+        <i class="fab fa-twitter"></i>
+      </button>
+      <button
+        type="button"
+        class="buttonFooterLeft"
+        onclick="window.location.href='https://t.me/t3l3s'"
+      >
+        <i class="fab fa-telegram-plane"></i>
+      </button>
+      <iframe
+        src="https://open.spotify.com/embed/playlist/7K3scENpOi7ZPZUHfnfic3"
+        style="position: absolute; top: 0px; left: 1065px;"
+        width="300"
+        height="80"
+        frameborder="0"
+        allowtransparency="true"
+        allow="encrypted-media"
+      ></iframe>
+    </div>
+  </body>
 </html>
-

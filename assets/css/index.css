@@ -1,0 +1,87 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  /* background-image: url("../imgs/bg3.gif"); */
+  opacity: 0.6;
+  /* Full height */
+  /* height: 100%;
+
+  /* Center and scale the image nicely */
+  /* background-position: center;
+  /* background-repeat: no-repeat;
+  /* background-size: cover; */
+}
+.buttonCenter {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  position: absolute;
+  margin: 0;
+  width: 6%;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.material-icons.md-120 {
+  font-size: 80px;
+}
+i.icon-green {
+  color: #000;
+}
+.buttonFooter {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  position: fixed;
+  left: -10;
+  bottom: 0;
+  width: 3%;
+  background-color: transparent;
+  color: #000;
+  text-align: center;
+  font-size: 25px;
+}
+.buttonFooterCenter {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  position: fixed;
+  left: 49%;
+  bottom: 0;
+  width: 3%;
+  background-color: transparent;
+  color: #000;
+  text-align: center;
+  font-size: 25px;
+}
+.buttonFooterLeft {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  position: fixed;
+  left: 97%;
+  bottom: 0;
+  width: 3%;
+  background-color: transparent;
+  color: #000;
+  text-align: center;
+  font-size: 25px;
+}
