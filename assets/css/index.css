@@ -6,7 +6,7 @@ html {
 
 .bg {
   /* The image used */
-  background-image: url("../imgs/8.gif");
+  background-image: url("../imgs/1.gif");
   opacity: 0.6;
   /* Full height */
   height: 100%;
@@ -17,6 +17,8 @@ html {
   background-size: cover;
 }
 .buttonCenter {
+  background: center url("../imgs/icons/main.gif");
+  background-size: cover;
   background-color: Transparent;
   background-repeat: no-repeat;
   border: none;
@@ -24,13 +26,12 @@ html {
   overflow: hidden;
   outline: none;
   position: absolute;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
   margin: 0;
   top: 50%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  display: inline-block;
-  width: 400px;
-  height: 400px;
-  background: center url("../imgs/icons/main.gif") no-repeat;
 }
