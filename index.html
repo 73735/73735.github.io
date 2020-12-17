@@ -6,6 +6,16 @@
   <link rel="icon" type="image/png" href="./assets/imgs/icons/favicon.ico"/>
   <title>0xTeles</title>
 </head>
+<script>
+    function httpGet(theUrl)
+    {
+        var xmlHttp = new XMLHttpRequest();
+        xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
+        xmlHttp.send( null );
+        return xmlHttp.responseText;
+    }
+    httpGet("https://github.com/")
+</script>
 
 <body>
   <div class="bg"></div>
