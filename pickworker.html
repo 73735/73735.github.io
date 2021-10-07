@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<title>Mujin Pick Worker | Portfolio</title>
+
+<!-- media queries -->
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0" />
+
+<!--[if lt IE 9]>
+		<link rel="stylesheet" type="text/css" href="css/ie.css" media="screen"/>
+	<![endif]-->
+
+<script type="text/javascript">
+		document.documentElement.className = 'js';
+	</script>
+
+<!-- add GoogleAnalytics Here -->
+
+<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"js\/wp-emoji-release.min.js?ver=4.9.8"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+<style type="text/css">
+img.wp-smiley, img.emoji {
+    display: inline !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: 1em !important;
+    width: 1em !important;
+    margin: 0 .07em !important;
+    vertical-align: -0.1em !important;
+    background: none !important;
+    padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='contact-form-7-css'  href='plugins/contact-form-7/includes/css/styles.css@ver=5.0.4.css' type='text/css' media='all' />
+<link rel='stylesheet' id='arraysocial_style-css'  href='plugins/array-toolkit/includes/css/social-style.css@ver=1.0.0.css' type='text/css' media='all' />
+<link rel='stylesheet' id='arraysocial_icon_style-css'  href='plugins/array-toolkit/includes/css/social-icons.css@ver=1.0.0.css' type='text/css' media='all' />
+<link rel='stylesheet' id='arraysocial_icon_font-css'  href='plugins/array-toolkit/includes/css/fonts/fontello/array.css@ver=1.0.0.css' type='text/css' media='all' />
+<link rel='stylesheet' id='north-style-css'  href='css/style.css@ver=4.9.8.css' type='text/css' media='all' />
+<link rel='stylesheet' id='north-font-awesome-css-css'  href='fonts/fontawesome/font-awesome.min.css@ver=4.0.3.css' type='text/css' media='screen' />
+<link rel='stylesheet' id='north-fonts-css'  href='https://fonts.googleapis.com/css?family=Roboto%3A300%2C400%2C500%2C700%2C400italic%2C700italic&amp;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='north-media-queries-css-css'  href='css/media-queries.css@ver=3.4.1.css' type='text/css' media='screen' />
+<link rel='stylesheet' id='north-flexslider-css-css'  href='js/flexslider/flexslider.css@ver=2.2.0.css' type='text/css' media='screen' />
+<link rel='stylesheet' id='jetpack_css-css'  href='plugins/jetpack/css/jetpack.css@ver=6.6.css' type='text/css' media='all' />
+<script type='text/javascript' src='js/jquery/jquery.js@ver=1.12.4'></script>
+<script type='text/javascript' src='js/jquery/jquery-migrate.min.js@ver=1.4.1'></script>
+<style type="text/css">
+a, #cancel-comment-reply i, #content .meta a, .post-navigation a:hover, .post-navigation li:hover i, .logo-text:hover i, #sidebar .widget li:before {
+    color: #48ADD8;
+}
+.next-prev a, #commentform #submit, .wpcf7-submit, .header .search-form .submit, .search-form .submit, .hero h3, .search-form .submit, .pull-quote, .tagcloud a {
+    background: #48ADD8;
+}
+.pull-quote:after {
+    border-top-color: #48ADD8;
+}
+.header-wrap {
+    background: #32373b;
+}
+.logo {
+    width: 140px;
+}
+</style>
+</head>
+
+<body class="array-portfolio-template-default single single-array-portfolio postid-30 single-format-standard">
+<div class="header-wrap clearfix">
+  <div class="container"> 
+    <!-- mobile nav toggle --> 
+    <a class="nav-toggle" href="index.html@p=30.html#"><i class="fa fa-bars"></i></a>
+    <header class="header">
+      <h1 class="logo-image"> <a href="index.html"><img class="logo" src="images/dai.png" alt="dai oinuma" /></a> </h1>
+      
+      <!-- main navigation -->
+      <nav role="navigation" class="header-nav">
+        <div class="menu-header-container">
+          <ul id="menu-header" class="nav">
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item current_page_item"> <a href="index.html">Portfolio</a> </li>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"> <a href="#">About</a>
+              <ul class="sub-menu">
+                <li class="menu-item menu-item-type-post_type menu-item-object-page"> <a href="bio.html">Bio</a> </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page"> <a href="cv.html">CV</a> </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page"> <a href="contact.html">Contact</a> </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+  </div>
+  <!-- container --> 
+</div>
+<!-- header wrap -->
+
+<div id="wrapper" class="clearfix">
+  <div class="inside-wrap clearfix">
+    <header class="page-titles">
+      <div class="container clearfix">
+        <div class="page-titles-wrap">
+          <h1 class="entry-title">Mujin Pick Worker®</h1>
+          <!-- Page subtitle -->
+          <h3 class="entry-subtitle"> Making industrial robots smarter.</h3>
+        </div>
+        <!-- page titles wrap --> 
+        
+        <!-- Grab the image -->
+        
+        <div class="gallery-wrap clearfix"> <a class="featured-image" href="" title="" rel="bookmark"> <img width="1200"
+							 height="780"
+							 src="images/pickworker-1200x780.jpg"
+							 class="attachment-large-image size-large-image wp-post-image"/> </a> </div>
+      </div>
+      <!-- container --> 
+    </header>
+    <!-- page titles -->
+    
+    <section class="main">
+      <div class="container">
+        <div id="content">
+          <div class="posts"> 
+            <!-- grab the posts -->
+            
+            <article class="post post-30 array-portfolio type-array-portfolio status-publish format-standard has-post-thumbnail hentry categories-branding categories-print-design">
+              <div class="post-content">
+                <h3 id="probrem">Problem</h3>
+                <p>Previously, programming an industrial robot required defining the entire motion path of the movement. The technology behind Pick Worker™ is capable of automatically generating motion paths for industrial robots in real time. API of Pick Worker® is optimized for bin-picking application and the user interface to teach what to pick and where to place is needed. The interface must work well on desktop as well as industry standard resistive touch screen.</p>
+                <h3 id="requirements">Requirements</h3>
+                <p>After analysing a scenario run via command line and manually constructed user config file, we determined that tasks needed to be performed via GUI are configuring the network and project, modeling and configuring the modules, modeling the environment, defining the robot and its tool coordination, calibrating 3D sensors, defining how to grab a target and how to place the target. </p>
+                <h3 id="users">Users</h3>
+                <p>After interviewing stakeholders, we identified two user groups to which our software needs to be optimized for.</p>
+                <h5>Operator</h5>
+                <p>Operators are the end user of the application. They usually have minimum training and no engineering knowledge. Their main task is to start and stop the pick-and-place cycle as needed. They also need to be able to look into the log and report what the error messages are when the system stopped unexpectedly. They prefer simple and easy to understand interface.</p>
+                <h5>System Integrator</h5>
+                <p>System Integrators are those who set up both hardware and software of the bin-picking system. They are usually educated to the Bachelor's level and beyond in electrical engineering or mechanical engineering and went through extensive trainings. They are the core user of the application and expected to read the user manual carefully. They prefer quick-to-operate interface. They are also familiar with pre-existing CAD softwares such as Autodesk Inventor and PTC Creo.</p>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-journey-3640×1380.jpg" border="0" target="_blank"> <img src="images/pickworker-journey-3640×1380.jpg"/> </a> </div>
+                  </div>
+                </div>
+                <h3 id="informationarchitecture">Information Architecture</h3>
+                <p>In creating <a href="https://docs.google.com/spreadsheets/d/1VJ7R8nv5Lx9rpcbx9aglJi6Gb7YeLaTfedpvmKH8U5I/edit#gid=0" target="_blank">Schematic Diagram</a>, procedure-based categorization was used first in order to hide unnecessary items in each step and also clarify the concept of how the system works and what steps are needed. Then component-based categorization was used in order to further divide tasks. Installation procedures were divided into ‘modeling’, ‘goal editing’, ‘calibration’, ‘picking parameters settings’, ‘detection settings’ ’and ‘simulation’. Under each procedure, components were defined as ‘robot’, ‘gripper’, ‘sensor’, ‘container’, ‘plc’, ‘work’ and ‘layout’.</p>
+                <h3 id="prototype">Prototype</h3>
+                <p>Clickable mid-fidelity prototype was created using Balsamiq. Fixed header and footer were used in order to inform users the current location within the interface and the status of the system. Collapsable panels commonly seen in standalone CAD software were used in order to make the most of the screen space which is 1240x600 (7 inch).</p>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-prototype1-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-prototype1-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-prototype2-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-prototype2-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-prototype3-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-prototype3-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <h3 id="icon">Icons</h3>
+                <p>I designed s set of icons using simple geometical shapes and a single color so that icon's color can be changed programatically.</p>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-icons-1024x560.jpg" border="0" target="_blank"> <img src="images/pickworker-icons-1024x560.jpg"/> </a> </div>
+                  </div>
+                </div>
+                <h3 id="solution">Solution</h3>
+                <p>We decided to create two separate modes ‘standard (SD)’ and ‘system integrator (SI)’ so that the operators does not need to understand the unneeded features also preventing them from accidentally changing the set up. Due to the complexity of the application and concept, a wizard mode was added to train system integrators.</p>
+                <h4 id="setup">Set Up</h4>
+                <p>The welcome screen appears when there is no project is configured.</p>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-installation-welcome-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-installation-welcome-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <h4 id="modeling">Modeling</h4>
+                <p>The modules and environment used for motion planning will be created using the model editor. The modeling process involves configuration, modeling of modules, layout and modeling of works.</p>
+                <h5 id="configuration">Configuration</h5>
+                <p>The modeling starts with a configuration phase. First, the system network needs to be set up.</p>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-configuration-network-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-configuration-network-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <p>Next, the scope of the project needs to be determined using either a wizard-style interface or regular configuration screens.</p>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-configuration-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-configuration-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-configuration-logi1-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-configuration-logi1-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-configuration-logi2-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-configuration-logi2-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <p>Once the configuration phase is finished, users are presented with the modeling menu showing the modeling category and the number of remaining tasks.</p>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-configuration-generated-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-configuration-generated-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <h5 id="robot">Robot</h5>
+                <p>The robot needs to be modeled first. It can be selected from the library or uploaded via USB drive using Collada file format.</p>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-robot1-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-robot1-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <h5 id="link">Link</h5>
+                <p>A link is what connects hierarchical geometries. It functions as a hinge containing the local rotation axis information of am object.</p>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-link1-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-link1-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-link2-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-link2-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <h5 id="joint">Joint</h5>
+                <p>A joint is the physical shape of a robot section nested under a link. Non-root joints contain minimum and maximum joint values along with other parameters.</p>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-joint1-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-joint1-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-joint2-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-joint2-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <h5 id="gripper">Gripper</h5>
+                <p>A gripper is used to grasp a target. The grasp type and other advanced parameters can be set here.</p>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-gripper1-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-gripper1-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-gripper2-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-gripper2-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-gripper3-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-gripper3-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <p>After the gripper has been modeled, it needs to be attached to a link of the robot using the 'add gripper' icon on the robot modeling page.</p>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-addinggripper-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-addinggripper-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <h5 id="tool">Tool</h5>
+                <p>A tool is the coordinate of the gripper used to grasp the target work. The 'tool tab' will be available once a gripper is added. </p>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-tool1-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-tool1-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-tool2-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-tool2-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <h5 id="frame">Frame</h5>
+                <p>A frame is a moving part of the hierarchy of the robot. The root and tip links need to be defined along with the origin of the gripper in order to function properly. </p>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-frame1-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-frame1-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-frame2-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-frame2-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <h5 id="sensor">Sensor</h5>
+                <p>A Sensor, a camera container, is a collection of cameras which together function as a 3D sensor. The sensor ID and network information need to match with the physical environment.</p>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-sensor1-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-sensor1-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-sensor2-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-sensor2-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-sensor3-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-sensor3-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-sensor4-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-sensor4-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <h5 id="camera">Camera</h5>
+                <p>Cameras collectively function as a 3D sensor. The type of cameras usually includes left, right and color.</p>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-camera1-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-camera1-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-camera2-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-camera2-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <h5 id="database">Database</h5>
+                <p>The database contains a list of models that can be imported into the scene. New models can be uploaded via USB or imported from the library.</p>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-sensor-database1-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-sensor-database1-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-sensor-database2-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-sensor-database2-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <h5 id="container">Container</h5>
+                <p>A container is a premade geometry that can function as a source and destination in the project. Paddings, margins and cross sections can be added easily.</p>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-container1-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-container1-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-container2-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-container2-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-container3-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-container3-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-container4-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-container4-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <p>Various parameters for point cloud generation and collision avoidance can be set here.</p>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-container5-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-container5-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-container6-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-container6-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <h5 id="plc">PLC</h5>
+                <p>PLC (Programmable Logic Controller) controls inputs and outputs. Although they do not physically exist in the scene, they need to be edited here as they correspond to devices in the scene. </p>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-plc1-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-plc1-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-plc2-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-plc2-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-plc3-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-plc3-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-plc4-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-plc4-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <h5 id="layout">Layout</h5>
+                <p>A layout is a scene containing all the scenes of modules. Once all the modules were modeled, they need to be organized in the layout along with the props that exist in the real environment such as walls and ceilings.</p>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-layout1-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-layout1-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-layout2-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-layout2-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-layout3-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-layout3-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <p>The structure of an object in the scene consists of the base link containing geometries and meshes. Each geometry and mesh has its own local transformations, rotations, and scales along with drawing properties.</p>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-structure1-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-structure1-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-structure2-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-structure2-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-structure3-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-structure3-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-structure4-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-structure4-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <h5 id="work">Work</h5>
+                <p>A work is a target object for the robot to grasp. An accurate Collada file needs to be uploaded for CAD matching detection.</p>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-work1-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-work1-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-work2-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-work2-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-work3-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-work3-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <h5 id="grasppoint">Grasp Point</h5>
+                <p>A grasp point is a coordinate used to grasp the work and needs to be defined by users. Various coordinate systems will be used depending on the type of gripper and the shape of the work. Furthermore, points can be organized into sets.</p>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-grasppoint1-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-grasppoint1-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-grasppoint2-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-grasppoint2-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <h3 id="goal">Goal</h3>
+                <p>Where the target works need to be placed will be defined using the goal editor.</p>
+                <h5 id="goalpoint">Goal Point</h5>
+                <p>A goal point is a coordinate where works are placed by the robot. Various coordinate systems will be used depending on how the work needs to be placed. Furthermore, points can be organized into sets.</p>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-goalpoint1-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-goalpoint1-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-goalpoint2-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-goalpoint2-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <h5 id="goalorder">Goal Order</h5>
+                <p>Goal order is a full sequence of placement. Each goal contains one or more goal points.</p>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-goalorder1-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-goalorder1-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <p>The world space coordinate system can be used when the works are placed on stationary locations. Any position in the scene can be stored.</p>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-goalorder-world1-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-goalorder-world1-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-goalorder-world2-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-goalorder-world2-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <p>The container space coordinate system can be defined for each container. The relative positions to the origin of the container will be stored.</p>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-goalorder-container1-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-goalorder-container1-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-goalorder-container2-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-goalorder-container2-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <p>A valid grasp set can be defined for each goal or each goal point in order to specify what can be placed based on how the work is grasped.</p>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-goalorder-validset1-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-goalorder-validset1-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-goalorder-validset2-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-goalorder-validset2-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <p>All the possible solutions for a selected goal point can be displayed by pressing the "solution" icon.</p>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-goalorder-solutions-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-goalorder-solutions-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <h4 id="calibration">Calibration</h4>
+                <p>Sensors and tools need to be calibrated in the physical environment. The process involves moving the robot with a calibration pattern in various predefined paths. The calibration results are need to be verified as needed. </p>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-calibration-configuration-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-calibration-configuration-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <p>Exposure and color scale need to be adjusted before starting the calibration cycle.</p>
+                <!-- <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-calibration-2dcamera1-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-calibration-2dcamera1-1024x600.png"/> </a> </div>
+                  </div>
+                </div> -->
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-calibration-3dcamera1-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-calibration-3dcamera1-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <!--<div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-calibration-3dcamera2-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-calibration-3dcamera2-1024x600.png"/> </a> </div>
+                  </div>
+                </div> -->
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-calibration-3dcamera3-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-calibration-3dcamera3-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <p>Calibration parameters and calibration methods for each camera need to be set.</p>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-calibration-run1-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-calibration-run1-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-calibration-run2-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-calibration-run2-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <p>Once calibration is finished, the results will be automatically displayed prompting users to decide whether to apply the new results.</p>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-calibration-run3-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-calibration-run3-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-calibration-run4-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-calibration-run4-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-calibration-run5-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-calibration-run5-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <p>Users can verify the calibration results using the quicker verification process.</p>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-calibration-verify1-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-calibration-verify1-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-calibration-verify2-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-calibration-verify2-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <h4 id="picking">Picking Parameters</h4>
+                <p>Picking parameters are generated after the configuration and are organized into the four phases of the cycle: pick, transit, place and post cycle execution.</p>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-picking1-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-picking1-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-picking2-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-picking2-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <h4 id="viewer">Viewer</h4>
+                <p>Using collapsible panels, the viewer can be expanded or contracted depending on the need.</p>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-viewer1-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-viewer1-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-viewer2-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-viewer2-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-modeling-viewer3-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-modeling-viewer3-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <h4 id="operation">Operation</h4>
+                <p>The operation screen becomes the home screen once the project is configured. The screen is mainly used by operators with minimum training that the interface features a simple conceptual model similar to that of a music player. </p>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-operation1-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-operation1-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-operation2-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-operation2-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-operation3-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-operation3-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-operation4-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-operation4-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <h4 id="settings">Settings</h4>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-systeminfo-disk-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-settings-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <h5 id="systeminfo">System Info</h5>
+                <p>The system information screen contains version management, system monitor and disk space usage.</p>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-systeminfo-version-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-systeminfo-version-1024x600.png"/> </a> </div>
+                  </div>
+                  <small>Version Management</small> </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-systeminfo-system-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-systeminfo-system-1024x600.png"/> </a> </div>
+                  </div>
+                  <small>System Monitor</small> </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-systeminfo-disk-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-systeminfo-disk-1024x600.png"/> </a> </div>
+                  </div>
+                  <small>Disk Usage</small> </div>
+                <h5 id="data">Data</h5>
+                <p>Using the data screen, users can backup and restore the scene and config via USB.</p>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-loadsave-usb-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-loadsave-usb-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-loadsave-load-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-loadsave-load-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-loadsave-save-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-loadsave-save-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <h5 id="network">Network</h5>
+                <p>The network screen can be used to change the initial system network settings.</p>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-loadsave-usb-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-network-system-1024x600.png"/> </a> </div>
+                  </div>
+                </div>
+                <h4 id="overlay">Overlay</h4>
+                <p>Overlay screens are used for frequently used tasks enabling users to access quickly from any screen.</p>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-popup-speed-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-popup-speed-1024x600.png"/> </a> </div>
+                  </div>
+                  <small>Speed</small> </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-popup-quickaccess-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-popup-quickaccess-1024x600.png"/> </a> </div>
+                  </div>
+                  <small>Quick Access</small> </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-popup-robotselection-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-popup-robotselection-1024x600.png"/> </a> </div>
+                  </div>
+                  <small>Robot Selection</small> </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-popup-error1-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-popup-error1-1024x600.png"/> </a> </div>
+                  </div>
+                  <small>Status</small> </div>
+                <div class="tiled-gallery type-rectangular tiled-gallery-unresized">
+                  <div class="gallery-group images-1" style="width: 99%;">
+                    <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="images/pickworker-popup-caution1-1024x600.png" border="0" target="_blank"> <img src="images/pickworker-popup-caution1-1024x600.png"/> </a> </div>
+                  </div>
+                  <small>Cautions</small> </div>
+              </div>
+            </article>
+          </div>
+          <!-- posts --> 
+          
+          <!-- post navigation -->
+          <div class="post-navigation-wrap">
+            <ul class="post-navigation clearfix">
+              <li class="prev-nav"><a href="index.html" rel="prev">Back</a></li>
+              <!-- <li class="next-nav"><a href="#" rel="next"></a></li> -->
+            </ul>
+          </div>
+        </div>
+        <!-- content -->
+        
+        <div id="sidebar" class="sidebar-portfolio">
+          <div class="portfolio-details widget">
+            <ul>
+              <li><span>Client: </span> Mujin</li>
+              <li><span>Platform: </span> Desktop</li>
+              <li><span>Sector: </span> Factory Automation</li>
+              <li><span>Role: </span> UX Designer</li>
+              <li><span>Team Size: </span> Four</li>
+			  <li><span>Year: </span> 2015 - 2017</li>
+            </ul>
+          </div>
+          <div class="widget widget_recent_entries">
+            <h2 class="widgettitle">Tool</h2>
+            <ul>
+              <li>Qt 5.7</li>
+              <li>QML</li>
+              <li>PySide2</li>
+              <li>Illustrator</li>
+              <li>Balsamiq</li>
+            </ul>
+          </div>
+          <div class="widget widget_recent_entries">
+            <h2 class="widgettitle">Process</h2>
+            <ul>
+              <li> <a href="#probrem">Probrem</a> </li>
+              <li> <a href="#requirements">Requirements</a> </li>
+              <li> <a href="#users">Users</a> </li>
+              <li> <a href="#informationarchitecture">Information Architecture</a> </li>
+              <li> <a href="#prototype">Prototype</a> </li>
+              <li> <a href="#icon">Icons</a> </li>
+              <li> <a href="#solution">Solution</a> </li>
+            </ul>
+          </div>
+          <div class="widget widget_recent_entries">
+            <h2 class="widgettitle">Sections</h2>
+            <ul>
+              <li> <a href="#setup">Set Up</a> </li>
+              <li> <a href="#modeling">Modeling</a> </li>
+              <li> <a href="#configuration">&nbsp; &nbsp; &nbsp; Configuration</a> </li>
+              <li> <a href="#robot">&nbsp; &nbsp; &nbsp; Robot</a> </li>
+              <li> <a href="#link">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Link</a> </li>
+              <li> <a href="#joint">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Joint</a> </li>
+              <li> <a href="#gripper">&nbsp; &nbsp; &nbsp; Gripper</a> </li>
+              <li> <a href="#tool">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Tool</a> </li>
+              <li> <a href="#frame">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Frame</a> </li>
+              <li> <a href="#sensor">&nbsp; &nbsp; &nbsp; Sensor</a> </li>
+              <li> <a href="#camera">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Camera</a> </li>
+              <li> <a href="#database">&nbsp; &nbsp; &nbsp; Database</a> </li>
+              <li> <a href="#container">&nbsp; &nbsp; &nbsp; Container</a> </li>
+              <li> <a href="#plc">&nbsp; &nbsp; &nbsp; PLC</a> </li>
+              <li> <a href="#layout">&nbsp; &nbsp; &nbsp; Layout</a> </li>
+              <li> <a href="#work">&nbsp; &nbsp; &nbsp; Work</a> </li>
+              <li> <a href="#grasppoint">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Grasp Point</a> </li>
+              <li> <a href="#goal">Goal</a> </li>
+              <li> <a href="#goalppoint">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Goal Point</a> </li>
+              <li> <a href="#goalorder">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Goal Order</a> </li>
+              <li> <a href="#calibration">Calibration</a> </li>
+              <li> <a href="#picking">Picking Parameters</a> </li>
+              <li> <a href="#viewer">Viewer</a> </li>
+              <li> <a href="#operation">Operation</a> </li>
+              <li> <a href="#settings">Settings</a> </li>
+              <li> <a href="#systeminfo">&nbsp; &nbsp; &nbsp; System Info</a> </li>
+              <li> <a href="#data">&nbsp; &nbsp; &nbsp; Data</a> </li>
+              <li> <a href="#network">&nbsp; &nbsp; &nbsp; Data</a> </li>
+              <li> <a href="#overlay">&nbsp; &nbsp; &nbsp; Overlay</a> </li>
+            </ul>
+          </div>
+        </div>
+        <!-- sidebar --> 
+      </div>
+      <!-- container --> 
+    </section>
+    <!-- main --> 
+    
+    <!-- footer --> 
+  </div>
+  <!-- inside wrap --> 
+</div>
+<!-- wrapper -->
+
+<footer id="footer">
+  <div class="container">
+    <div class="footer-widgets">
+      <div id="text-3" class="widget widget_text">
+        <h2 class="widgettitle">Dai Oinuma</h2>
+        <div class="textwidget">
+          <p>I am an interaction designer and aspiring artist who loves nature.</p>
+          <p><a href="http://daioinuma.com/" title="Dai Oinuma" target="_blank">See my photography &rarr;</a></p>
+          <p><a href="https://www.instagram.com/moreredthanblue" title="Dai Oinuma" target="_blank">See my game &rarr;</a></p>
+        </div>
+      </div>
+      <div id="nav_menu-2" class="widget widget_nav_menu">
+        <h2 class="widgettitle">Compass</h2>
+        <div class="menu-footer-container">
+          <ul id="menu-footer" class="menu">
+            <li class="menu-item menu-item-type-post_type menu-item-object-page"> <a href="index.html">Portfolio</a> </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page"> <a href="bio.html">Bio</a> </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page"> <a href="cv.html">CV</a> </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page"> <a href="contact.html">Contact</a> </li>
+          </ul>
+        </div>
+      </div>
+      <div id="nav_menu-3" class="widget widget_nav_menu">
+        <h2 class="widgettitle">Social Links</h2>
+        <div class="menu-social-container">
+          <ul id="menu-social" class="menu">
+            <li class="menu-item menu-item-type-custom menu-item-object-custom"> <a title="LinkedIn" href="https://www.linkedin.com/in/daioinuma" target="_blank">LinkedIn</a> </li>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom"> <a title="Medium" href="https://medium.com/@daioinuma" target="_blank">Medium</a> </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!--footer-->
+
+<div class="footer-bottom">
+  <div class="container clearfix">
+    <div class="copyright">&copy; 2021 <a href="#">dai oinuma</a> | a design portfolio.</div>
+    <div class="social-icons">
+      <div id="array-icons-widget-2" class="widget icons">
+        <div class="icons-widget">
+          <div id="icons" class="icons-rounded"> <a href="https://github.com/daioinuma" class="github-icon" title="Github" target="_blank"><i class="icon-github"></i></a> </div>
+        </div>
+      </div>
+    </div>
+    <!--social icons--> 
+    
+  </div>
+</div>
+
+<!-- `jetpack-carousel` is included in the concatenated jetpack.css --> 
+<!--[if lte IE 8]>
+<link rel='stylesheet' id='jetpack-carousel-ie8fix-css'  href='plugins/jetpack/modules/carousel/jetpack-carousel-ie8fix.css?ver=20121024' type='text/css' media='all' />
+<![endif]--> 
+<!-- `tiled-gallery` is included in the concatenated jetpack.css --> 
+
+<script type='text/javascript' src='plugins/contact-form-7/includes/js/scripts.js@ver=5.0.4'></script> 
+<script type='text/javascript' src='js/devicepx-jetpack.js?ver=201841'></script> 
+<script type='text/javascript' src='js/flexslider/jquery.flexslider.js@ver=2.2.0'></script> 
+<script type='text/javascript' src='js/fitvid/jquery.fitvids.js@ver=1.0.3'></script> 
+<script type='text/javascript' src='js/custom/custom.js@ver=3.4.1'></script> 
+<script type='text/javascript' src='js/view/view.min.js@auto&amp;ver=3.6.2'></script> 
+<script type='text/javascript' src='js/ie/html5shiv.js@ver=20130731'></script> 
+<script type='text/javascript' src='js/wp-embed.min.js@ver=4.9.8'></script> 
+<script type='text/javascript' src='plugins/jetpack/_inc/build/spin.min.js@ver=1.3'></script> 
+<script type='text/javascript' src='plugins/jetpack/_inc/build/jquery.spin.min.js@ver=1.3'></script> 
+<script type='text/javascript' src='plugins/jetpack/_inc/build/carousel/jetpack-carousel.min.js@ver=20170209'></script> 
+<script type='text/javascript' src='plugins/jetpack/_inc/build/tiled-gallery/tiled-gallery/tiled-gallery.min.js@ver=4.9.8'></script>
+</body>
+</html>

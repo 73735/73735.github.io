@@ -1,0 +1,40 @@
+body {
+	background-color: #000;
+	color: #fff;
+}
+
+svg {
+	border-radius: 0px;
+}
+.node {
+	cursor: pointer;
+}
+.node circle {
+	fill: #fff;
+	stroke: #555;
+	;
+	stroke-width: 2px;
+}
+.node text {
+	font: 10px sans-serif;
+	fill: #fff;
+}
+.link {
+	fill: none;
+	stroke: #555;
+	stroke-width: 1.5px;
+}
+.hyper {
+	color: red;
+	text-decoration: underline;
+}
+.hyper:hover {
+	color: yellow;
+	text-decoration: none;
+}
+.selected {
+	font-weight: bold;
+}
+.not-selected {
+	font-weight: normtal;
+}

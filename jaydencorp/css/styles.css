@@ -1,0 +1,115 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background-color: #000;
+	color: #fff;
+	width: 100%;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: lighter;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	width: 60%;
+	margin-left: auto;
+    margin-right: auto;
+	font-size: 1em;
+	line-height: 1.8em;
+	font-weight: 1;
+	color: #ccc;
+}
+
+
+ul{
+	width: 60%;
+	margin-left: auto;
+    margin-right: auto;
+	font-size: 1.2em;
+	line-height: 1.5em;
+		line-height: 1.8em;
+	font-weight: 1;
+	color: #ccc;
+}
+
+
+.centerimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.corplogo {
+    margin-top: 5em;
+	margin-bottom: 2em;
+    
+}
+
+.logo {
+    height: 30px;
+	padding: 10px;
+
+}
+
+.title {
+    text-align: center;
+	font-size: 4em;
+	font-weight: 1;
+}
+
+.tagline {
+	text-align: center;
+	color: #666;
+	font-weight: 1;
+}
+
+.subtitle {
+	text-align: center;
+	padding-top: 3em;
+	font-weight: 1;
+}
+
+.outer-div
+{
+    margin-left: auto;
+    margin-right: auto;
+	padding: 0;
+  height: 50px;
+	width: 80%;
+  background-color: #333;
+}
+.inner-div
+{
+  margin: 0 auto;
+  width: 100px;
+  height: 50px;
+  float: left;
+	text-align: center;
+}
+
+.inner-div a{
+	height: 50px;
+	color: #fff;
+	line-height: 50px;
+}
+
+.active {
+	vertical-align: middle;
+	background-color: #555;
+	height: 50px;
+}
+.inactive {
+	background-color: #333;
+	height: 50px;
+}
+
+.copyright {
+	font-size: .9em;
+	color: #ccc;
+	margin-top: 3em;
+	margin-bottom: 2em;
+	text-align: center;
+}
+
